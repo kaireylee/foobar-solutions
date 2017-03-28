@@ -6,7 +6,7 @@ public class Answer {
     System.out.println(answer(250));
   }
     public static int answer(int total_lambs) { 
-		double phi = (1+Math.sqrt(5))/2; //golden search ratio
+	double phi = (1+Math.sqrt(5))/2; //golden search ratio
         double x = (1-Math.sqrt(5))/2;
         double y = Math.pow(10, -10);
     
